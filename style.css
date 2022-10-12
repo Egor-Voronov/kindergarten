@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: normal;
+  
+  }
+
+  .wrapper {
+    overflow: hidden;
+    background-color: #00a5d1;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+  .upper {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+ .heading {
+    font-family: 'dosis-bold', sans-serif;
+  }
+
+  /* ..................................................................... */
+
+  .head-row {
+    margin-top: 35px;
+  }
+
+  .logo-img {
+    width: 274px;
+    height: 146px;
+  }
+
+  .head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 900px;
+  }
+
+  .head1-block1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .head-elem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .head-elem {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 45px;
+  }
+
+  .fas {
+    font-size: 15px;
+    margin-right: 11px;
+  }
+
+  .head-elem-p {
+    position: relative;
+    top: 9px;
+  }
+/* ................................ */
+  .head1-block2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .head1 {
+    position: relative;
+    top: 20px;
+  }
+
+  .head2 {
+    position: relative;
+    top: 40px;
+  }
+
+  .border-line {
+    height: .09px;
+    position: absolute;
+    width: 44.7vw;
+    background-color: #fff;
+    top: 105px;
+  }
+
+  .head2-block3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .p-prime {
+    font-weight: 700;
+  }
+
+  .p-thin {
+    font-weight: 100;
+  }
+
+    /* ..................................................................... */
+
+main {
+    height: 92.5vh;
+    width: 100vw;
+    background-size: 100%;
+    background-image: url(media/clouds.png);
+    /* margin-bottom: 150px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-blue {
+    pointer-events: none;
+    position: relative;
+    left: 310px;
+}
+
+.heading-2{
+    color: #00a5d1;
+    font-weight: 500;
+    font-family: 'dosis-bold', sans-serif;
+    position: relative;
+    left: 290px;
+    top: 20px;
+    font-size: 42px;
+}
+
+.btn1 {
+    width: 181px;
+    height: 52px;
+    background-color: #00a5d1;
+    color: #fff;
+    border: none;
+}
+
+.btn :hover{
+    opacity: .5;
+    background-color: #00a5d1;
+}
+
+.btn1 {
+    position: relative;
+    left: 665px;
+    top: 50px;
+}
+
+  /* ..................................................................... */
+
+  .div3 {
+    height: 585px;
+    width: 100vw;
+    background-size: 100%;
+    background-image: url(media/kids.png);
+    /* margin-bottom: 150px; */
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.text1 {
+    position: relative;
+    top: 80px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-w {
+    color: #fff;
+    text-align: left;
+}
+
+.small-heading {
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'dosis-bold', sans-serif;
+}
+
+.big-heading {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.s-1 {
+    position: relative;
+    right: 500px;
+}
+
+.b-1 {
+    top: 10px;
+    position: relative;
+    right: 445px;
+}
+
+.default {
+    color: #fff;
+}
+
+.default-div {
+    width: 450px;
+
+    position: relative;
+    right: 355px;
+    top: 50px;
+}
+
+.btn2 {
+    width: 181px;
+    height: 52px;
+    background-color: #fff;
+    color: #00a5d1;
+    position: relative;
+    right: 490px;
+    top: 70px;
+    border: none;
+}
+
+.top {
+    position: relative;
+    top: 0px;
+}
+
+  /* ..................................................................... */
+
+  .div4 {
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    /* margin-bottom: 150px; */
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: left;
+ }
+
+ .h-b {
+    color: #00a5d1;
+ }
+
+ .black-d {
+    color: #000;
+    font-size: 600;
+ }
+
+.b-2 {
+    position: relative;
+    right: 320px;
+}
+
+.def-d2 {
+    position: relative;
+    top: 10px;
+    right: 318px;
+}
+
+.div4-text {
+    position: relative;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.info3-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
